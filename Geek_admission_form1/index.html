@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1 align="center">Geekster Admission Form</h1> <hr/>
+        <form>
+           <h3>Personal Info</h3>
+            <input type="text" placeholder="Enter first name" name="first_Name" required/>&nbsp;
+            <input type="text" placeholder="Enter last name" name="last_name" /> 
+            <br/>
+            <br/>
+            <input type="email" placeholder="Email" name="Email" required/>
+            <br/>
+            <br/>
+            <input type="tel" placeholder="Phone number" name="Phone-number" maxlength="10" required/>
+            <br/>
+            <br/>
+            <input type="date" placeholder="DOB" name="DOB" />
+            <br/>
+            <br/>
+            <select name="gender">
+                <option disabled selected>Select gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+            <br/>
+            <br/>
+            <textarea placeholder="Address" name="address"></textarea>
+            <br/>
+            <hr/>
+            <h3>Educational Info</h3>
+            <select name="degree">
+                <option disabled selected>Select Degree</option>
+                <option>B.Tech</option>
+                <option>B.E</option>
+                <option>B.Sc</option>
+                <option>M.Tech</option>
+                <option>M.E</option>
+                <option>M.Sc</option>
+            </select>
+            <br/>
+            <br/>
+            <input type="text" placeholder="College Name" name="college-name"/>
+            <br/>
+            <input type="text" placeholder="Year of Graduation" name="year_of_graduation"/><br/>
+            <input type="number" placeholder="Percentage" name="percentage" min="0" max="100"/>
+            <br/>
+            <input type="file" name="file"  />
+            <hr/>
+            <h3>Course Details</h3>
+            <p>Which level do you want to enroll?</p>
+            <input type="radio" name="course_type"/>Fundamentals
+            <input type="radio" name="course_type"/>Advance
+            <p>Which course do you want to enroll?</p>
+            <input type="checkbox" name="course_name"/>Web
+            <input type="checkbox" name="course_name"/>DSA
+            <hr/>
+            <input type="submit"/>
+
+
+        </form> 
+    </body>
+</html>
