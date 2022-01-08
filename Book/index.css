@@ -1,0 +1,36 @@
+.header{
+    text-align: center;
+}
+section{
+    border:2px solid black;
+    border-top: 2px solid purple;
+    border-bottom: 2px solid purple;
+    margin: 8% 8% 0% 8%;
+        
+    
+}
+#paragraph{
+    display:inline-block;
+    margin-top: 100px;
+    overflow: hidden;
+}
+body{
+    border: 2px solid black;
+}
+
+#firstpara{
+    display: inline-block;
+
+}
+#firstpara::first-letter{
+    font-size: 40px;
+}
+#pageno{
+    margin: 0px;
+    text-align: center;
+    padding-bottom:9%;
+    
+}
+#firstpara~p{
+    margin: 0px;
+}
