@@ -1,0 +1,30 @@
+.inner_box{
+    border: 2px solid black;
+    padding: 20px;
+    background-color:  #67eb34;
+    
+}
+
+.container{
+    margin:auto;
+    width: 300px;
+    height: 300px;
+   margin-top: 100px;
+}
+body{
+    background-color: #c5eb88 ;
+}
+
+.para{
+    border: 2px dotted black;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    background-color: #fab48e;
+}
+button{
+    width: 70px;
+    height: 40px;
+    margin: 30px 10px;
+    background-color: #f2e8d3;
+}
