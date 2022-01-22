@@ -7,7 +7,8 @@
     margin-top: 30px;
     text-align: right;
     margin: auto;
-    
+    font-size: 20px;
+    font-weight: bolder;
     
 
     
@@ -17,7 +18,15 @@
     height: 40px;
     background-color: coral;
     padding: 20px;
+    font-weight: bolder ;
     
+}
+
+.plus_button{
+    width:75px;
+    height: 40px;
+    background-color: coral;
+    padding: 20px;
 }
 
 .numeric_button{
@@ -37,6 +46,7 @@ body {
 div{
     text-align: center; 
     margin-top: 20px;  
+    
 }
 
 #main{
