@@ -1,0 +1,13 @@
+.letter{
+    border: 2px solid black;
+    position: sticky;
+    top:0px;
+    height:20px;
+    margin:0px;
+    background-color: #ffb3b3;
+}
+
+.contact{
+    background-color: #b3ffb3;
+    margin: 0px;
+}
