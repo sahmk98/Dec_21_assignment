@@ -1,0 +1,27 @@
+#container{
+    width: 500px;
+    height: 80%vh;
+    border: 1px solid black;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(223, 219, 231);
+    margin: auto;
+}
+
+body{
+    background-color: floralwhite;
+}
+
+#main{
+    width: 100%vw;
+    height: 100%vh;
+}
+
+p{
+    border: 2px solid rgb(83, 83, 88);
+    
+}
+button{
+    background-color: moccasin;
+}
