@@ -1,0 +1,28 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    display:block;
+    margin: auto;
+    text-align: center;
+    width: 50vw;
+    height: 40vh;
+    border: 2px solid black;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #96CEB4 ;
+}
+
+button{
+    width: 100px;
+    height: 60px;
+    background-color:#9AD0EC ;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: #F9E4D4;
+}
+
+body{
+    background-color: #EEEEEE;
+}
