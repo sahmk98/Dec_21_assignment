@@ -1,0 +1,60 @@
+.container{
+    margin: auto;
+    width: 60vw;
+    
+    
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+
+
+
+
+nav{
+    display: flex;
+    border-bottom: 2px solid;
+    
+}
+
+input{
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    
+    padding: 10px;
+}
+
+.profile_img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.post_img{
+    
+   width: 55vw;
+   height: 80vh;
+    position: relative;
+}
+
+
+
+#bookmark{
+ float: right;  
+  padding-right: 90px;
+   
+}
+
+.comment{
+    opacity: 0.6;
+}
+.time{
+    opacity: 0.6;
+}
