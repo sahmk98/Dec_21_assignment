@@ -37,11 +37,9 @@ input{
     padding: 10px;
 }
 
-.post_img{
-    
-   width: 55vw;
-   height: 80vh;
-    position: relative;
+img{
+    width: 900px;
+    height: 400px;
 }
 
 
