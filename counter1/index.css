@@ -1,0 +1,19 @@
+.container{
+    width: 60vw;
+    height: 40vh;
+    background-color: aquamarine;
+    border-radius: 30px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 35px;
+    background-color: antiquewhite;
+}
